@@ -2,7 +2,7 @@ const net = require("net");
 // establishes a connection with the game server
 const connect = function () {
   const conn = net.createConnection({
-    host:"10.0.0.214", // IP address here,
+    host:"172.20.10.2", // IP address here,
     port: 50541   // PORT number here,
   });
 
@@ -14,7 +14,7 @@ const connect = function () {
     conn.write("Name: ID")
     setInterval(() => {
       //conn.write('Move: up');
-    }, 1000);
+    }, 500);
 });
 
   return conn;
