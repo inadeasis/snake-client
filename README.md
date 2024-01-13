@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Client Side Preview"](./client.png)
-!["Game Preview"](./server.png)
+!["Client Side Preview"](client.png?raw=true)
+!["Game Preview"]("./server.png?raw=true")
 
 ## Getting Started
 
